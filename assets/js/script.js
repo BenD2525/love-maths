@@ -13,7 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+/**
+ * The main game loop.
+ */
 function runGame() {
+    let num1= Math.floor(Math.random() *25) +1;
+    let num2= Math.floor(Math.random() *25) +1;
 
 }
 
